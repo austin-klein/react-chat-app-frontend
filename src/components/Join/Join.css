@@ -1,0 +1,101 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1A1A1D;
+}
+
+.joinInnerContainer {
+  width: 25%;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: #2979FF !important;
+  color: white !important;
+}
+
+.room-button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    font-size: 1.3em;
+}
+
+.room-button:hover {
+  cursor: pointer;
+  background-color: #2979FF;
+  color: white;
+}
+
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
